@@ -39,7 +39,7 @@ st.markdown("""
 """)
 
 st.subheader("2.3 Dataset")
-kerala = pd.read_csv(r"C:\Users\Rushikesh\Desktop\LFPR\kerala.csv",index_col=0)
+kerala = pd.read_csv("kerala.csv",index_col=0)
 st.dataframe(kerala)
 
 st.header('3. Exploratory Data Analysis (EDA)')
